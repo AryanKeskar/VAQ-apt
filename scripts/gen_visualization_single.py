@@ -231,7 +231,18 @@ def main():
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
     # Save the result
-    result_image.save(output_path)
+    print(f"Saving visualization to {output_path}")
+    print(f'result_image type: {type(result_image)}, shape: {result_image.size if isinstance(result_image, Image.Image) else "N/A"}')
+    #result_image.save(output_path)
+    #visualize result_image using matplotlib
+    plt.figure(figsize=(10, 10))
+    if isinstance(result_image, Image.Image):
+        plt.imshow(result_image)
+    else:
+        plt.imshow(result_image.permute(1, 2, 0).cpu().numpy().astype(np.uint8))
+    plt.axis('off')
+    plt.savefig(output_path, bbox_inches='tight', pad_inches=0)
+    plt.close()
     print(f"Saved visualization to {output_path}")
 
 if __name__ == "__main__":

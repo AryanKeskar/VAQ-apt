@@ -103,3 +103,88 @@ HYDRA_FULL_ERROR=1 python src/train.py experiment=train_vit_finetune ...
 ---
 
 If you want, I can also produce a ready-to-paste `configs/data/imagenet.yaml` example or a minimal single-image quick test config; tell me which.
+
+## Run pretrained inference
+
+Use these steps when you want to run inference using pretrained ViT weights (either from `timm` or a local checkpoint).
+
+1. Quick inference using a timm model name (no local checkpoint file required):
+
+```bash
+# Runs evaluation using a timm pretrained backbone (replace dataset path if performing full validation)
+python src/eval.py experiment=validate_vit \
+  ckpt_path=vit_base_patch16_224 \
+  trainer.devices=1 \
+  trainer.accelerator=gpu \
+  data.data_dir=/path/to/ILSVRC2012
+```
+
+Notes:
+- `ckpt_path` can be a timm model identifier (e.g. `vit_base_patch16_224`) — the code will call `timm.create_model(..., pretrained=True)` and load weights automatically.
+- If you only want to run inference on a few images, you can supply a small local folder structured like ImageNet `val/<class>/*.jpg` and point `data.data_dir` to it.
+
+2. Inference using a local checkpoint file:
+
+```bash
+python src/eval.py experiment=validate_vit \
+  ckpt_path=/full/path/to/checkpoint.ckpt \
+  trainer.devices=1 \
+  trainer.accelerator=gpu \
+  data.data_dir=/path/to/ILSVRC2012
+```
+
+3. Single-image quick test (no full ImageNet required):
+- Option A: Use the visualization script to inspect patch selection (no model needed):
+
+```bash
+python scripts/gen_visualization_single.py --input /path/to/image.jpg --output /tmp/vis.jpg --method entropy --vis_type grid
+
+python gen_visualization_single.py --input /Users/home_folder/Desktop/Python_projects/VAQ-apt/scripts/test_image.png --output /tmp/vis.jpg --method entropy --vis_type grid
+
+```
+
+- Option B: Quick inference script you can save as `scripts/run_single_inference.py` and run (this loads a timm pretrained model and runs a forward pass on one image):
+
+```python
+from PIL import Image
+import torch
+from torchvision import transforms
+from src.models.vision_transformer import VisionTransformer
+
+# Replace model name and img size as needed
+model_name = 'vit_base_patch16_224'
+img_size = 224
+
+# Build model instance consistent with config (adjust parameters if needed)
+net = VisionTransformer(img_size=img_size, patch_size=16, num_classes=1000)
+
+# Load pretrained via timm through ViTLitModule-style logic (example):
+import timm
+timm_model = timm.create_model(model_name, pretrained=True, img_size=img_size)
+state = timm_model.state_dict()
+net.load_state_dict(state, strict=False)
+
+# Prepare image
+img = Image.open('/path/to/image.jpg').convert('RGB')
+preprocess = transforms.Compose([
+    transforms.Resize((img_size, img_size)),
+    transforms.ToTensor(),
+    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+])
+inp = preprocess(img).unsqueeze(0)
+
+net.eval()
+with torch.no_grad():
+    logits = net.forward_features(inp)
+    # If needed, run through head
+    print(logits.shape)
+
+```
+
+4. Where pretrained weights live
+- timm downloads pretrained backbones into the timm/torch cache (e.g. `~/.cache/torch` or `~/.cache/timm`). Local checkpoints you pass via `ckpt_path` can live anywhere; if saved by Lightning they will typically appear under the Hydra output folder `logs/<task_name>/runs/<timestamp>/checkpoints/` unless you override `callbacks.model_checkpoint.dirpath`.
+
+5. Important caveats
+- `src/eval.py` asserts that `cfg.ckpt_path` is set — when using a timm model name set `ckpt_path` to that name.
+- Full ImageNet validation requires ImageNet data; for quick functional checks, use a small custom folder or the single-image script above.
+
