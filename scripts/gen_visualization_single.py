@@ -234,15 +234,16 @@ def main():
     print(f"Saving visualization to {output_path}")
     print(f'result_image type: {type(result_image)}, shape: {result_image.size if isinstance(result_image, Image.Image) else "N/A"}')
     #result_image.save(output_path)
-    #visualize result_image using matplotlib
-    plt.figure(figsize=(10, 10))
+    #convert result_image which has class <class 'PIL.Image.Image'> to numpy array and save using cv2.imwrite, and visualize using cv2.imshow
     if isinstance(result_image, Image.Image):
-        plt.imshow(result_image)
+        result_image_np = np.array(result_image)
+        cv2.imwrite(output_path, cv2.cvtColor(result_image_np, cv2.COLOR_RGB2BGR))
+        # Visualize using cv2.imshow
+        cv2.imshow("Visualization", cv2.cvtColor(result_image_np, cv2.COLOR_RGB2BGR))
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
     else:
-        plt.imshow(result_image.permute(1, 2, 0).cpu().numpy().astype(np.uint8))
-    plt.axis('off')
-    plt.savefig(output_path, bbox_inches='tight', pad_inches=0)
-    plt.close()
+        print("Error: result_image is not a PIL Image. Cannot save or visualize.")
     print(f"Saved visualization to {output_path}")
 
 if __name__ == "__main__":
