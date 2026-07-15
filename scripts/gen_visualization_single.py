@@ -90,6 +90,7 @@ def process_image(image_path, vis_type, method, aggregate, image_size, patch_siz
     
     # Open the image
     image = Image.open(image_path)
+    image = image.convert("RGB")  # Ensure image is in RGB format
     print(f"Original image size: {image.size}")
     
     if no_resize:
@@ -148,7 +149,7 @@ def process_image(image_path, vis_type, method, aggregate, image_size, patch_siz
         # Convert image to tensor for importance map calculation
         img_tensor = TF.to_tensor(img) * 255.0
         img_int_tensor = img_tensor.to(torch.uint8)
-        
+        print(f'#### img_int_tensor shape: {img_int_tensor.shape}, dtype: {img_int_tensor.dtype}####')
         # Compute importance maps based on selected method
         if method == 'entropy':
             importance_maps = compute_patch_entropy_vectorized(img_tensor, patch_size, num_scales)
