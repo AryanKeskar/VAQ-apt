@@ -139,7 +139,7 @@ python src/eval.py experiment=validate_vit \
 ```bash
 python scripts/gen_visualization_single.py --input /path/to/image.jpg --output /tmp/vis.jpg --method entropy --vis_type grid
 
-python gen_visualization_single.py --input /Users/home_folder/Desktop/Python_projects/VAQ-apt/scripts/test_image.png --output /tmp/vis.jpg --method entropy --vis_type entropy
+python gen_visualization_single.py --input /Users/home_folder/Desktop/Python_projects/VAQ-apt/scripts/test_image.png --output ./temp/upsample_mse_method.png --method upsample_mse --vis_type entropy
 
 ```
 

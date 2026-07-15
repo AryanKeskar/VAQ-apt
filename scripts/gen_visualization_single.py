@@ -236,6 +236,7 @@ def main():
     print(f'result_image type: {type(result_image)}, shape: {result_image.size if isinstance(result_image, Image.Image) else "N/A"}')
     #result_image.save(output_path)
     #convert result_image which has class <class 'PIL.Image.Image'> to numpy array and save using cv2.imwrite, and visualize using cv2.imshow
+    '''
     if isinstance(result_image, Image.Image):
         result_image_np = np.array(result_image)
         cv2.imwrite(output_path, cv2.cvtColor(result_image_np, cv2.COLOR_RGB2BGR))
@@ -245,7 +246,13 @@ def main():
         cv2.destroyAllWindows()
     else:
         print("Error: result_image is not a PIL Image. Cannot save or visualize.")
+    #save the result_image using cv2.imwrite after converting to numpy array and converting from RGB to BGR
+    #'''
+    result_image_np = np.array(result_image)
+    cv_image = cv2.cvtColor(result_image_np, cv2.COLOR_RGB2BGR)
+    cv2.imwrite(output_path, cv2.cvtColor(cv_image, cv2.COLOR_RGB2BGR))
     print(f"Saved visualization to {output_path}")
+    
 
 if __name__ == "__main__":
     main()
