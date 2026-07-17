@@ -41,7 +41,7 @@ class PatchTokenizer(nn.Module):
         self,
         num_scales: int,
         base_patch_size: int,
-        image_size: int,
+        image_size: list[int],
         thresholds: List[float],
         mean: List[float],
         std: List[float],
@@ -66,10 +66,7 @@ class PatchTokenizer(nn.Module):
         )
 
 
-    def construct_masks(
-        self,
-        importance_maps: Dict[int, torch.Tensor]
-    ) -> Tuple[Dict[int, torch.Tensor], torch.Tensor, List[int]]:
+    def construct_masks(self,importance_maps: Dict[int, torch.Tensor]) -> Tuple[Dict[int, torch.Tensor], torch.Tensor, List[int]]:
         """Constructs selection masks for patches based on importance maps.
         
         Args:
@@ -110,7 +107,6 @@ class PatchTokenizer(nn.Module):
         self,
         images: torch.Tensor,
         masks: Dict[int, torch.Tensor],
-        pos_embeds: Dict[str, torch.Tensor]
     ) -> Dict[str, torch.Tensor]:
         """Constructs groups of patches at different scales with their position embeddings.
         
@@ -146,8 +142,8 @@ class PatchTokenizer(nn.Module):
                 constituent_patches = einops.rearrange(
                     images,
                     "b c (h n1 p3) (w n2 p4) -> b h w (n1 n2) c p3 p4",
-                    h=self.image_size // cur_patch_size,
-                    w=self.image_size // cur_patch_size,
+                    h=self.image_size[0] // cur_patch_size,
+                    w=self.image_size[1] // cur_patch_size,
                     n1=cur_patch_size // self.base_patch_size,
                     n2=cur_patch_size // self.base_patch_size,
                     p3=self.base_patch_size,
@@ -223,14 +219,12 @@ class PatchTokenizer(nn.Module):
         self,
         images: torch.Tensor,
         importance_maps: Dict[int, torch.Tensor] = None,
-        pos_embeds: Dict[str, torch.Tensor] = None,
     ) -> Dict[str, Union[torch.Tensor, List[int]]]:
         """Forward pass of the patch tokenizer.
         
         Args:
             images (torch.Tensor): Input images of shape (batch_size, channels, height, width)
             importance_maps (Dict[int, torch.Tensor]): Pre-computed importance maps for different patch sizes
-            pos_embeds (Dict[str, torch.Tensor]): Position embeddings for different patch sizes
             
         Returns:
             Dictionary containing:
@@ -248,7 +242,7 @@ class PatchTokenizer(nn.Module):
             importance_maps = self.compute_importance_maps(images)
 
         masks, output_mask, seqlens = self.construct_masks(importance_maps)
-        output_dict = self.construct_patch_groups(images, masks, pos_embeds)
+        output_dict = self.construct_patch_groups(images, masks)
         output_dict["output_mask"] = output_mask
         output_dict["seqlens"] = seqlens
         

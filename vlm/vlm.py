@@ -41,6 +41,11 @@ with open("inputs_structure.py", "w") as f:
     f.write(f"{inputs}\n")
     f.write("}\n")
 
+for key in inputs.keys():
+    print(f"Shape of the keys: {key}: {list(inputs[key].shape)}")
+my_inputs = {}
+
+
 print("Saved structure to inputs_structure.py")
 # 5. Generate Inference
 print("Running inference...")
