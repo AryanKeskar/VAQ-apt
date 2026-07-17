@@ -17,8 +17,8 @@ model = Qwen2VLForConditionalGeneration.from_pretrained(
 processor = AutoProcessor.from_pretrained(model_id)
 
 # 2. Grab a real image
-image_url = "https://picsum.photos/id/237/224/224"
-image = Image.open(requests.get(image_url, stream=True).raw)
+image_path = "/Users/home_folder/Desktop/Python_projects/VAQ-apt/vlm/test_image.png"
+image = Image.open(image_path)
 
 # 3. Format the prompt
 messages = [
@@ -34,7 +34,14 @@ messages = [
 # 4. Process inputs
 text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 inputs = processor(text=[text], images=image, padding=True, return_tensors="pt").to(device)
+keys = inputs.keys()
+input_ids = list(inputs.input_ids)
+with open("inputs_structure.py", "w") as f:
+    f.write("inputs_metadata = {\n")
+    f.write(f"{inputs}\n")
+    f.write("}\n")
 
+print("Saved structure to inputs_structure.py")
 # 5. Generate Inference
 print("Running inference...")
 output_ids = model.generate(**inputs, max_new_tokens=50)
