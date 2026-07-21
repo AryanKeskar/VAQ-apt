@@ -13,7 +13,8 @@ from src.models.entropy_utils import *
 from src.models.patch_tokenizer import PatchTokenizer
 from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
 image_path = "/Users/home_folder/Desktop/Python_projects/VAQ-apt/vlm/test_image.png"
-
+#work on positional encoding
+#scaling make sure it works
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 IMAGE_SIZE = 336
 BASE_PATCH_SIZE = 14
