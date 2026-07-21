@@ -51,7 +51,7 @@ patch_tokenizer = PatchTokenizer(
     thresholds=THRESHOLDS,
     mean=MEAN,
     std=STD,
-    method="entropy",
+    method="entropy"
 )
 
 # 6) Tokenize/patchify
