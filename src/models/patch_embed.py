@@ -112,7 +112,6 @@ class PatchEmbed(nn.Module):
 
     def forward(self, x):
         B, C, H, W = x.shape
-
         # Split the image into patches
         patches = x.unfold(2, self.patch_size[0], self.patch_size[0]).unfold(3, self.patch_size[1], self.patch_size[1])
         patches = patches.contiguous().view(B, C, -1, self.patch_size[0] * self.patch_size[1])

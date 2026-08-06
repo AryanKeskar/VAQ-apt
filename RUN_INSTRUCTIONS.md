@@ -1,190 +1,332 @@
-# Running the VAQ-APT codebase
+# VAQ-apt: How to Train the ViT and Reuse the Weights
 
-This document summarizes the minimal, actionable steps to get the VAQ-APT repository running in your `apt` Conda environment. It collects environment setup, dataset configuration, common CLI commands, and troubleshooting tips.
+This project is a Hydra-based PyTorch Lightning training setup. The main training entry point is:
 
-## Quick checklist
-- Conda environment: activated (`conda activate apt`).
-- Python: 3.10 recommended.
-- PyTorch: installed with correct CUDA/MPS support for your machine.
-- Python deps: installed (`pip install -r requirements.txt`).
-- Data path: set in `configs/data/imagenet.yaml` (see below).
+- `src/train.py`
+- Configs live under `configs/`
+- The ViT training experiment is defined in `configs/experiment/train_vit_finetune.yaml`
 
-## Environment setup
-1. (Optional) Create the conda environment:
-
-```bash
-conda create -n apt python=3.10 -y
-conda activate apt
-```
-
-2. Install PyTorch for your hardware (adjust CUDA version or choose `mps` on macOS):
-
-Example (CUDA 12.1):
-```bash
-conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia -y
-```
-
-3. Install project Python dependencies (you already ran this):
-
-```bash
-pip install -r requirements.txt
-```
-
-## Project-specific configuration (edit these files)
-- `configs/data/imagenet.yaml`: set the `data_dir` to the folder that contains `train/` and `val/`.
-
-Example content to paste into `configs/data/imagenet.yaml`:
-
-```yaml
-data_dir: /path/to/ILSVRC2012
-# other keys may stay as-is
-```
-
-- If you see module import errors using `rootutils`, create an empty file at repository root named `.project-root`.
-
-## How to run
-Run all commands from the repository root.
-
-1) Validate a model (example overrides):
-
-```bash
-python src/eval.py experiment=validate_vit \
-  trainer.devices=4 \
-  data.batch_size=128 \
-  ckpt_path=/path/to/checkpoint.ckpt \
-  data.data_dir=/path/to/ILSVRC2012
-```
-
-Notes:
-- Replace `trainer.devices`, `trainer.accelerator` (`gpu`/`mps`) with values appropriate to your machine.
-- You can alternatively edit the config file under `configs/trainer/`.
-
-2) Train / fine-tune (example single-GPU):
-
-```bash
-python src/train.py experiment=train_vit_finetune \
-  trainer.devices=1 \
-  trainer.accelerator=gpu \
-  data.data_dir=/path/to/ILSVRC2012 \
-  data.batch_size=64
-```
-
-3) Generate a visualization:
-
-```bash
-python scripts/gen_visualization_single.py \
-  --input /your/input/image.jpg \
-  --output /your/output/visualization.jpg \
-  --method entropy \
-  --vis_type grid
-```
-
-## Hydra notes
-- Hydra changes working directory by default (creates `outputs/` entries). Running from repo root is normal.
-- If you want more detailed error traces, run with:
-
-```bash
-HYDRA_FULL_ERROR=1 python src/train.py experiment=train_vit_finetune ...
-```
-
-## Common troubleshooting
-- rootutils / import errors: create `./.project-root` in repo root and run commands from repo root.
-- Dataset not found: double-check `data.data_dir` path and that `train/` and `val/` exist.
-- CUDA driver mismatch: reinstall PyTorch with the CUDA version matching your system.
-- Multi-GPU errors: try single-device runs first, or ensure `strategy` in trainer config matches Lightning version; you may need `torchrun` for some distributed setups.
-
-## Files to inspect
-- `README.md` — project overview and recommended install hints.
-- `src/train.py` and `src/eval.py` — main entry points for training and evaluation.
-- `configs/data/imagenet.yaml` — dataset path and dataset-specific settings.
-- `configs/trainer/*.yaml` — trainer settings for CPU/GPU/DDP.
-- `requirements.txt` — Python dependencies.
+The project expects a GPU-enabled environment for normal training. It also saves model checkpoints automatically under the Hydra output directory.
 
 ---
 
-If you want, I can also produce a ready-to-paste `configs/data/imagenet.yaml` example or a minimal single-image quick test config; tell me which.
+## 1) Prerequisites
 
-## Run pretrained inference
+You need:
 
-Use these steps when you want to run inference using pretrained ViT weights (either from `timm` or a local checkpoint).
+- Python 3.10
+- A CUDA-capable GPU (recommended)
+- A local copy of the ImageNet dataset
+- Terminal access in the project root
 
-1. Quick inference using a timm model name (no local checkpoint file required):
+This repo is designed to be run from the project root folder, which is the folder containing `src/`, `configs/`, and `README.md`.
+
+---
+
+## 2) Open the project folder
+
+From a terminal:
 
 ```bash
-# Runs evaluation using a timm pretrained backbone (replace dataset path if performing full validation)
-python src/eval.py experiment=validate_vit \
-  ckpt_path=vit_base_patch16_224 \
-  trainer.devices=1 \
-  trainer.accelerator=gpu \
+cd /Users/home_folder/Desktop/Python_projects/VAQ-apt
+```
+
+Set the project root environment variable that the config files expect:
+
+```bash
+export PROJECT_ROOT="$PWD"
+```
+
+You should do this in every new terminal session before running training.
+
+---
+
+## 3) Create the Python environment
+
+Recommended setup using conda:
+
+```bash
+conda create -n vaqapt python=3.10 -y
+conda activate vaqapt
+```
+
+Then install PyTorch and the repo dependencies. For example:
+
+```bash
+pip install -U pip
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+```
+
+If you prefer `mamba`, the project README also suggests this workflow:
+
+```bash
+mamba create -n apt python=3.10 -y
+mamba activate apt
+mamba install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia -y
+pip install -r requirements.txt
+```
+
+The key dependency stack is already listed in `requirements.txt`, including:
+
+- `lightning`
+- `hydra-core`
+- `torchmetrics`
+- `timm`
+- `transformers`
+- `rootutils`
+- `opencv-python`
+
+---
+
+## 4) Prepare the ImageNet dataset
+
+The repo expects ImageNet-style folders named `train` and `val`.
+
+Your dataset should look like this:
+
+```text
+/path/to/ILSVRC2012/
+  train/
+    n01440764/
+    n01443537/
+    ...
+  val/
+    n01440764/
+    n01443537/
+    ...
+```
+
+The exact config file is `configs/data/imagenet.yaml`, and the field that controls the dataset location is `data.data_dir` inside that file:
+
+```yaml
+# file: configs/data/imagenet.yaml
+_data_dir: ""  # TODO: add! Path to ImageNet dataset
+```
+
+In this project, the actual path is supplied at runtime via Hydra overrides like `data.data_dir=/path/to/ILSVRC2012`, because the default value is intentionally blank.
+
+A typical setup is:
+
+```bash
+mkdir -p /path/to/
+# make sure ImageNet is already downloaded at /path/to/ILSVRC2012
+```
+
+Then point the training command at that folder with a CLI override:
+
+```bash
+data.data_dir=/path/to/ILSVRC2012
+```
+
+---
+
+## 5) Train the ViT
+
+The default training experiment is:
+
+```bash
+python src/train.py experiment=train_vit_finetune
+```
+
+This is the project’s main ViT training recipe. It uses the config in `configs/experiment/train_vit_finetune.yaml`, which sets:
+
+- ImageNet data
+- ViT model config
+- APT patch logic
+- trainer settings
+- a checkpoint callback
+
+You must also explicitly pass your dataset path, because the default config leaves `data_dir` blank.
+
+### Minimal working command
+
+```bash
+python src/train.py \
+  experiment=train_vit_finetune \
+  data=imagenet \
   data.data_dir=/path/to/ILSVRC2012
 ```
 
-Notes:
-- `ckpt_path` can be a timm model identifier (e.g. `vit_base_patch16_224`) — the code will call `timm.create_model(..., pretrained=True)` and load weights automatically.
-- If you only want to run inference on a few images, you can supply a small local folder structured like ImageNet `val/<class>/*.jpg` and point `data.data_dir` to it.
-
-2. Inference using a local checkpoint file:
+### Example with a single GPU
 
 ```bash
-python src/eval.py experiment=validate_vit \
-  ckpt_path=/full/path/to/checkpoint.ckpt \
-  trainer.devices=1 \
+python src/train.py \
+  experiment=train_vit_finetune \
+  data=imagenet \
+  data.data_dir=/path/to/ILSVRC2012 \
   trainer.accelerator=gpu \
+  trainer.devices=1 \
+  trainer.max_epochs=5
+```
+
+### Example with multiple GPUs
+
+```bash
+python src/train.py \
+  experiment=train_vit_finetune \
+  data=imagenet \
+  data.data_dir=/path/to/ILSVRC2012 \
+  trainer.accelerator=gpu \
+  trainer.devices=8 \
+  trainer.precision=16-mixed
+```
+
+The config already sets `trainer.devices: 8` in the experiment file, so if your machine has 8 GPUs you can keep the defaults and only pass the dataset path.
+
+---
+
+## 6) Where the model weights are saved
+
+The project automatically saves checkpoints through Lightning’s model checkpoint callback.
+
+The checkpoint directory is set in `configs/callbacks/default.yaml`:
+
+```yaml
+model_checkpoint:
+  dirpath: ${paths.output_dir}/checkpoints
+  filename: "epoch_{epoch:03d}"
+  save_last: True
+```
+
+That means the checkpoint files are stored under the Hydra run directory, usually under a path like:
+
+```text
+logs/train/runs/YYYY-MM-DD_HH-MM-SS/checkpoints/
+```
+
+You will typically see files such as:
+
+```text
+logs/train/runs/2026-08-04_10-12-34/checkpoints/epoch_000.ckpt
+logs/train/runs/2026-08-04_10-12-34/checkpoints/last.ckpt
+```
+
+This is the important part for reuse: the weights are saved automatically during training and the last checkpoint is also kept as `last.ckpt`.
+
+---
+
+## 7) Re-use a saved model
+
+Once you have a checkpoint, you can re-load it for evaluation or resume training.
+
+### Evaluate a checkpoint
+
+```bash
+python src/eval.py \
+  ckpt_path=/path/to/checkpoints/last.ckpt \
+  data=imagenet \
   data.data_dir=/path/to/ILSVRC2012
 ```
 
-3. Single-image quick test (no full ImageNet required):
-- Option A: Use the visualization script to inspect patch selection (no model needed):
+### Resume training from a checkpoint
 
 ```bash
-python scripts/gen_visualization_single.py --input /path/to/image.jpg --output /tmp/vis.jpg --method entropy --vis_type grid
-
-python gen_visualization_single.py --input /Users/home_folder/Desktop/Python_projects/VAQ-apt/scripts/test_image.png --output ./temp/upsample_mse_method.png --method upsample_mse --vis_type entropy
-
+python src/train.py \
+  experiment=train_vit_finetune \
+  data=imagenet \
+  data.data_dir=/path/to/ILSVRC2012 \
+  ckpt_path=/path/to/checkpoints/last.ckpt
 ```
 
-- Option B: Quick inference script you can save as `scripts/run_single_inference.py` and run (this loads a timm pretrained model and runs a forward pass on one image):
+This works because `src/train.py` passes `cfg.get("ckpt_path")` to `trainer.fit(...)`.
 
-```python
-from PIL import Image
-import torch
-from torchvision import transforms
-from src.models.vision_transformer import VisionTransformer
+---
 
-# Replace model name and img size as needed
-model_name = 'vit_base_patch16_224'
-img_size = 224
+## 8) Important notes about the repo setup
 
-# Build model instance consistent with config (adjust parameters if needed)
-net = VisionTransformer(img_size=img_size, patch_size=16, num_classes=1000)
+- The project uses Hydra config overrides, so most values are changed with command-line flags.
+- `PROJECT_ROOT` must be set before launching runs.
+- `data_dir` must be set to your actual ImageNet folder.
+- The default training config assumes a multi-GPU environment, but it can be reduced to a smaller GPU or CPU setup with CLI overrides.
+- Training outputs and checkpoints are stored under the Hydra log directory, not in a separate hardcoded folder in the repo.
 
-# Load pretrained via timm through ViTLitModule-style logic (example):
-import timm
-timm_model = timm.create_model(model_name, pretrained=True, img_size=img_size)
-state = timm_model.state_dict()
-net.load_state_dict(state, strict=False)
+---
 
-# Prepare image
-img = Image.open('/path/to/image.jpg').convert('RGB')
-preprocess = transforms.Compose([
-    transforms.Resize((img_size, img_size)),
-    transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
-])
-inp = preprocess(img).unsqueeze(0)
+## 9) Recommended exact flow for your use case
 
-net.eval()
-with torch.no_grad():
-    logits = net.forward_features(inp)
-    # If needed, run through head
-    print(logits.shape)
+If your goal is to train the project’s ViT and keep the weights for later reuse, use this sequence:
 
+```bash
+cd /Users/home_folder/Desktop/Python_projects/VAQ-apt
+export PROJECT_ROOT="$PWD"
+
+conda create -n vaqapt python=3.10 -y
+conda activate vaqapt
+pip install -U pip
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+
+python src/train.py \
+  experiment=train_vit_finetune \
+  data=imagenet \
+  data.data_dir=/path/to/ILSVRC2012
 ```
 
-4. Where pretrained weights live
-- timm downloads pretrained backbones into the timm/torch cache (e.g. `~/.cache/torch` or `~/.cache/timm`). Local checkpoints you pass via `ckpt_path` can live anywhere; if saved by Lightning they will typically appear under the Hydra output folder `logs/<task_name>/runs/<timestamp>/checkpoints/` unless you override `callbacks.model_checkpoint.dirpath`.
+After training finishes, your checkpoints will be saved in the Hydra output directory, and you can re-use them with:
 
-5. Important caveats
-- `src/eval.py` asserts that `cfg.ckpt_path` is set — when using a timm model name set `ckpt_path` to that name.
-- Full ImageNet validation requires ImageNet data; for quick functional checks, use a small custom folder or the single-image script above.
+```bash
+python src/eval.py \
+  ckpt_path=/path/to/logs/train/runs/.../checkpoints/last.ckpt \
+  data=imagenet \
+  data.data_dir=/path/to/ILSVRC2012
+```
 
+or resume training from the same checkpoint:
+
+```bash
+python src/train.py \
+  experiment=train_vit_finetune \
+  data=imagenet \
+  data.data_dir=/path/to/ILSVRC2012 \
+  ckpt_path=/path/to/logs/train/runs/.../checkpoints/last.ckpt
+```
+
+---
+
+## 10) Quick troubleshooting
+
+### Error: Hydra complains about no dataset path
+
+Set the dataset path explicitly:
+
+```bash
+python src/train.py experiment=train_vit_finetune data.data_dir=/path/to/ILSVRC2012
+```
+
+### Error: `PROJECT_ROOT` is not set
+
+Run:
+
+```bash
+export PROJECT_ROOT="$PWD"
+```
+
+### Error: no GPU detected
+
+Run a single-device CPU fallback only if necessary:
+
+```bash
+python src/train.py \
+  experiment=train_vit_finetune \
+  data=imagenet \
+  data.data_dir=/path/to/ILSVRC2012 \
+  trainer.accelerator=cpu \
+  trainer.devices=1
+```
+
+### You want to use your own checkpoint directory
+
+You can override the checkpoint directory at runtime, for example:
+
+```bash
+python src/train.py \
+  experiment=train_vit_finetune \
+  data=imagenet \
+  data.data_dir=/path/to/ILSVRC2012 \
+  callbacks.model_checkpoint.dirpath=/absolute/path/to/my_checkpoints
+```
+
+---
+
+This is the project’s intended flow for training a ViT and keeping the resulting weights for later reuse.
