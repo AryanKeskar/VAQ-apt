@@ -1,0 +1,184 @@
+[
+    {
+        "image_name": "P02-20240211-115653_frame_0000004596.jpg",
+        "original_bounding_box": [
+            699,
+            68,
+            1211,
+            580
+        ],
+        "question": "what is the box sitting on top of?",
+        "ground_truth": "table",
+        "evaluations": [
+            {
+                "context_crop_size": "704x704",
+                "context_crop_bbox": "full_image_resized",
+                "target_patch_size": "USER_ANNOTATED_512_PATCH",
+                "target_patch_bbox": [
+                    699,
+                    68,
+                    1211,
+                    580
+                ],
+                "model_output": "Table",
+                "cosine similarity": 1.0
+            }
+        ]
+    },
+    {
+        "image_name": "P03-20240217-130208_frame_0000003685.jpg",
+        "original_bounding_box": [
+            438,
+            393,
+            950,
+            905
+        ],
+        "question": "what time is displayed in the microwave?",
+        "ground_truth": "13:01",
+        "evaluations": [
+            {
+                "context_crop_size": "704x704",
+                "context_crop_bbox": "full_image_resized",
+                "target_patch_size": "USER_ANNOTATED_512_PATCH",
+                "target_patch_bbox": [
+                    438,
+                    393,
+                    950,
+                    905
+                ],
+                "model_output": "1:30",
+                "cosine similarity": 0.6353655457496643
+            }
+        ]
+    },
+    {
+        "image_name": "P01-20240203-123350_frame_0000035123.jpg",
+        "original_bounding_box": [
+            675,
+            141,
+            1187,
+            653
+        ],
+        "question": "What are the people in the poster on fridge called?",
+        "ground_truth": "Dwarfs",
+        "evaluations": [
+            {
+                "context_crop_size": "704x704",
+                "context_crop_bbox": "full_image_resized",
+                "target_patch_size": "USER_ANNOTATED_512_PATCH",
+                "target_patch_bbox": [
+                    675,
+                    141,
+                    1187,
+                    653
+                ],
+                "model_output": "Santa",
+                "cosine similarity": 0.31024646759033203
+            }
+        ]
+    },
+    {
+        "image_name": "P01-20240204-160230_frame_0000002394.jpg",
+        "original_bounding_box": [
+            702,
+            54,
+            1214,
+            566
+        ],
+        "question": "what is the weather like out the window?",
+        "ground_truth": "cloudy",
+        "evaluations": [
+            {
+                "context_crop_size": "704x704",
+                "context_crop_bbox": "full_image_resized",
+                "target_patch_size": "USER_ANNOTATED_512_PATCH",
+                "target_patch_bbox": [
+                    702,
+                    54,
+                    1214,
+                    566
+                ],
+                "model_output": "Cloudy",
+                "cosine similarity": 1.0
+            }
+        ]
+    },
+    {
+        "image_name": "P03-20240217-131219_frame_0000049211.jpg",
+        "original_bounding_box": [
+            592,
+            707,
+            1104,
+            1219
+        ],
+        "question": "what is the color of the food cooked by the person?",
+        "ground_truth": "orange",
+        "evaluations": [
+            {
+                "context_crop_size": "704x704",
+                "context_crop_bbox": "full_image_resized",
+                "target_patch_size": "USER_ANNOTATED_512_PATCH",
+                "target_patch_bbox": [
+                    592,
+                    707,
+                    1104,
+                    1219
+                ],
+                "model_output": "Orange",
+                "cosine similarity": 1.0000001192092896
+            }
+        ]
+    },
+    {
+        "image_name": "P01-20240204-145458_frame_0000000047.jpg",
+        "original_bounding_box": [
+            505,
+            249,
+            1017,
+            761
+        ],
+        "question": "What is the color of the text on the toat bag?",
+        "ground_truth": "pink",
+        "evaluations": [
+            {
+                "context_crop_size": "704x704",
+                "context_crop_bbox": "full_image_resized",
+                "target_patch_size": "USER_ANNOTATED_512_PATCH",
+                "target_patch_bbox": [
+                    505,
+                    249,
+                    1017,
+                    761
+                ],
+                "model_output": "White",
+                "cosine similarity": 0.6522350907325745
+            }
+        ]
+    },
+    {
+        "image_name": "P01-20240204-152537_frame_0000008924.jpg",
+        "original_bounding_box": [
+            449,
+            -12,
+            961,
+            500
+        ],
+        "question": "What specific piece of hardware is attached to the white surface on the right side of this image?",
+        "ground_truth": "door handle",
+        "evaluations": [
+            {
+                "context_crop_size": "704x704",
+                "context_crop_bbox": "full_image_resized",
+                "target_patch_size": "USER_ANNOTATED_512_PATCH",
+                "target_patch_bbox": [
+                    449,
+                    -12,
+                    961,
+                    500
+                ],
+                "model_output": "Door knob",
+                "cosine similarity": 0.7160386443138123
+            }
+        ]
+    }
+]

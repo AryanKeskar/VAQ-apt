@@ -1,0 +1,11 @@
+{
+    "image": "P01-20240204-145458_frame_0000000047.jpg",
+    "bbox": [
+        505,
+        249,
+        1017,
+        761
+    ],
+    "question": "What is the color of the text on the toat bag?",
+    "answer": "pink"
+}

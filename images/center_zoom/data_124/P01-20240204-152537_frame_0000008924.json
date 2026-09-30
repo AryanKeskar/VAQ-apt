@@ -1,0 +1,11 @@
+{
+    "image": "P01-20240204-152537_frame_0000008924.jpg",
+    "bbox": [
+        684,
+        168,
+        808,
+        292
+    ],
+    "question": "What specific piece of hardware is attached to the white surface on the right side of this image?",
+    "answer": "door handle"
+}

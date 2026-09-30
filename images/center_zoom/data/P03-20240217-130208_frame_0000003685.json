@@ -1,0 +1,11 @@
+{
+    "image": "P03-20240217-130208_frame_0000003685.jpg",
+    "bbox": [
+        438,
+        393,
+        950,
+        905
+    ],
+    "question": "what time is displayed in the microwave?",
+    "answer": "13:01"
+}

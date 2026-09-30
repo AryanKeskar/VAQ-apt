@@ -1,0 +1,11 @@
+{
+    "image": "P03-20240217-131219_frame_0000049211.jpg",
+    "bbox": [
+        592,
+        707,
+        1104,
+        1219
+    ],
+    "question": "what is the color of the food cooked by the person?",
+    "answer": "orange"
+}

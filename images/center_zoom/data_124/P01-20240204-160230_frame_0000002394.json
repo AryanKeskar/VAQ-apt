@@ -1,0 +1,11 @@
+{
+    "image": "P01-20240204-160230_frame_0000002394.jpg",
+    "bbox": [
+        959,
+        71,
+        1083,
+        195
+    ],
+    "question": "what is the whether like outside the window?",
+    "answer": "cloudy"
+}

@@ -1,0 +1,11 @@
+{
+    "image": "P02-20240211-115653_frame_0000004596.jpg",
+    "bbox": [
+        699,
+        68,
+        1211,
+        580
+    ],
+    "question": "what is the box sitting on top of?",
+    "answer": "table"
+}

@@ -1,0 +1,219 @@
+[
+    {
+        "image_name": "P01-20240203-123350_frame_0000035123.jpg",
+        "original_bounding_box": [
+            851,
+            373,
+            975,
+            497
+        ],
+        "question": "What are the people in the poster on fridge called?",
+        "ground_truth": "Dwarfs",
+        "evaluations": [
+            {
+                "context_crop_size": "512x512",
+                "context_crop_bbox": [
+                    604,
+                    432,
+                    1116,
+                    944
+                ],
+                "target_patch_size": "USER_ANNOTATED_124_PATCH",
+                "target_patch_bbox": [
+                    851,
+                    373,
+                    975,
+                    497
+                ],
+                "model_output": "Santa",
+                "cosine similarity": 0.31024646759033203
+            }
+        ]
+    },
+    {
+        "image_name": "P02-20240211-115653_frame_0000004596.jpg",
+        "original_bounding_box": [
+            917,
+            274,
+            1041,
+            398
+        ],
+        "question": "what is the box on top of in this image?",
+        "ground_truth": "table",
+        "evaluations": [
+            {
+                "context_crop_size": "512x512",
+                "context_crop_bbox": [
+                    777,
+                    825,
+                    1289,
+                    1337
+                ],
+                "target_patch_size": "USER_ANNOTATED_124_PATCH",
+                "target_patch_bbox": [
+                    917,
+                    274,
+                    1041,
+                    398
+                ],
+                "model_output": "Table",
+                "cosine similarity": 1.0
+            }
+        ]
+    },
+    {
+        "image_name": "P03-20240217-130208_frame_0000003685.jpg",
+        "original_bounding_box": [
+            648,
+            560,
+            772,
+            684
+        ],
+        "question": "what time is displayed in the microwave?",
+        "ground_truth": "13:01",
+        "evaluations": [
+            {
+                "context_crop_size": "512x512",
+                "context_crop_bbox": [
+                    618,
+                    270,
+                    1130,
+                    782
+                ],
+                "target_patch_size": "USER_ANNOTATED_124_PATCH",
+                "target_patch_bbox": [
+                    648,
+                    560,
+                    772,
+                    684
+                ],
+                "model_output": "12:17",
+                "cosine similarity": 0.7310869097709656
+            }
+        ]
+    },
+    {
+        "image_name": "P01-20240204-160230_frame_0000002394.jpg",
+        "original_bounding_box": [
+            959,
+            71,
+            1083,
+            195
+        ],
+        "question": "what is the whether like outside the window?",
+        "ground_truth": "cloudy",
+        "evaluations": [
+            {
+                "context_crop_size": "512x512",
+                "context_crop_bbox": [
+                    791,
+                    296,
+                    1303,
+                    808
+                ],
+                "target_patch_size": "USER_ANNOTATED_124_PATCH",
+                "target_patch_bbox": [
+                    959,
+                    71,
+                    1083,
+                    195
+                ],
+                "model_output": "Cloudy",
+                "cosine similarity": 1.0
+            }
+        ]
+    },
+    {
+        "image_name": "P03-20240217-131219_frame_0000049211.jpg",
+        "original_bounding_box": [
+            817,
+            888,
+            941,
+            1012
+        ],
+        "question": "what is the color of the food cooked by the person?",
+        "ground_truth": "orange",
+        "evaluations": [
+            {
+                "context_crop_size": "512x512",
+                "context_crop_bbox": [
+                    546,
+                    746,
+                    1058,
+                    1258
+                ],
+                "target_patch_size": "USER_ANNOTATED_124_PATCH",
+                "target_patch_bbox": [
+                    817,
+                    888,
+                    941,
+                    1012
+                ],
+                "model_output": "Orange",
+                "cosine similarity": 1.0000001192092896
+            }
+        ]
+    },
+    {
+        "image_name": "P01-20240204-145458_frame_0000000047.jpg",
+        "original_bounding_box": [
+            712,
+            435,
+            836,
+            559
+        ],
+        "question": "What is the color of the text on the toat bag?",
+        "ground_truth": "pink",
+        "evaluations": [
+            {
+                "context_crop_size": "512x512",
+                "context_crop_bbox": [
+                    216,
+                    580,
+                    728,
+                    1092
+                ],
+                "target_patch_size": "USER_ANNOTATED_124_PATCH",
+                "target_patch_bbox": [
+                    712,
+                    435,
+                    836,
+                    559
+                ],
+                "model_output": "Pink",
+                "cosine similarity": 1.0
+            }
+        ]
+    },
+    {
+        "image_name": "P01-20240204-152537_frame_0000008924.jpg",
+        "original_bounding_box": [
+            684,
+            168,
+            808,
+            292
+        ],
+        "question": "What specific piece of hardware is attached to the white surface on the right side of this image?",
+        "ground_truth": "door handle",
+        "evaluations": [
+            {
+                "context_crop_size": "512x512",
+                "context_crop_bbox": [
+                    370,
+                    224,
+                    882,
+                    736
+                ],
+                "target_patch_size": "USER_ANNOTATED_124_PATCH",
+                "target_patch_bbox": [
+                    684,
+                    168,
+                    808,
+                    292
+                ],
+                "model_output": "Door knob",
+                "cosine similarity": 0.7160386443138123
+            }
+        ]
+    }
+]

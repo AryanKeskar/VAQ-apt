@@ -1,0 +1,92 @@
+{
+    "P01-20240202-161354_1149.jpg": [
+        {
+            "Question": "what object is the filling?",
+            "answer": "jar"
+        }
+    ],
+    "P01-20240202-161354_1446.jpg": [
+        {
+            "Question": "what liquid is being filled into the container?",
+            "answer": "water"
+        }
+    ],
+    "P01-20240202-161354_2471.jpg": [
+        {
+            "Question": "what is the person doing?",
+            "answer": "washing"
+        }
+    ],
+    "P01-20240202-161354_3131.jpg": [
+        {
+            "Question": "what is the person grasping in her right hand?",
+            "answer": "plate"
+        }
+    ],
+    "P01-20240202-161354_3281.jpg": [
+        {
+            "Question": "what equipment is the person using?",
+            "answer": "dishwasher"
+        }
+    ],
+    "P01-20240202-161354_4075.jpg": [
+        {
+            "Question": "what is the green food in the image?",
+            "answer": "grapes"
+        }
+    ],
+    "P01-20240202-161354_4906.jpg": [
+        {
+            "Question": "what is the person holding in their hand?",
+            "answer": "box"
+        }
+    ],
+    "P01-20240202-161354_5848.jpg": [
+        {
+            "Question": "what is the person grasping?",
+            "answer": "cabinet/door/door handle"
+        }
+    ],
+    "P01-20240202-161354_6827.jpg": [
+        {
+            "Question": "what food is in the plate in front of the person?",
+            "answer": "fries/french fries"
+        }
+    ],
+    "P01-20240202-161354_733.jpg": [
+        {
+            "Question": "what equipment is the person using?",
+            "answer": "blender"
+        }
+    ],
+    "P01-20240202-161354_7614.jpg": [
+        {
+            "Question": "what food is on the counter?",
+            "answer": "bread/bagel/orange"
+        }
+    ],
+    "P01-20240202-161354_8602.jpg": [
+        {
+            "Question": "what is the person holding in their right hand?",
+            "answer": "bottle"
+        }
+    ],
+    "P01-20240202-161354_8654.jpg": [
+        {
+            "Question": "what is the person looking at?",
+            "answer": "pot"
+        }
+    ],
+    "P01-20240202-161354_8886.jpg": [
+        {
+            "Question": "how many pots are on the stove?",
+            "answer": "2"
+        }
+    ],
+    "P01-20240202-161354_9558.jpg": [
+        {
+            "Question": "what color is food in the pot?",
+            "answer": "yellow"
+        }
+    ]
+}
