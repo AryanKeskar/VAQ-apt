@@ -1,0 +1,4 @@
+Rank,Strategy,MeanScore,MedianScore,StdDev,SampleCount
+1,Resize,0.701845,0.703734,0.272995,240
+2,Gaze Zoom,0.650922,0.603795,0.300671,240
+3,Center Zoom,0.647265,0.566324,0.285192,240

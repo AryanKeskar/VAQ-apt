@@ -1,0 +1,2618 @@
+{
+    "context_patches_704": [
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Blender",
+                "Ground Truth Answers": [
+                    "blender"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Dishwasher",
+                "Ground Truth Answers": [
+                    "dishwasher"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "Question": "what food is on the counter?",
+                "Predicted Answer": "Orange",
+                "Ground Truth Answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    0.25969693064689636,
+                    0.24079671502113342,
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "Question": "what is the person doing?",
+                "Predicted Answer": "Washing dishes",
+                "Ground Truth Answers": [
+                    "washing"
+                ],
+                "Cosine Similarity Score": 0.7096564769744873,
+                "All Scores": [
+                    0.7096564769744873
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "Question": "what is the person holding in their hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "box"
+                ],
+                "Cosine Similarity Score": 0.3728597164154053,
+                "All Scores": [
+                    0.3728597164154053
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "Question": "what is the person holding in their right hand?",
+                "Predicted Answer": "Milk",
+                "Ground Truth Answers": [
+                    "bottle"
+                ],
+                "Cosine Similarity Score": 0.5976970195770264,
+                "All Scores": [
+                    0.5976970195770264
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "Question": "what is the person grasping in her right hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "plate"
+                ],
+                "Cosine Similarity Score": 0.40946727991104126,
+                "All Scores": [
+                    0.40946727991104126
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "Question": "what liquid is being filled into the container?",
+                "Predicted Answer": "Oil",
+                "Ground Truth Answers": [
+                    "water"
+                ],
+                "Cosine Similarity Score": 0.5520633459091187,
+                "All Scores": [
+                    0.5520633459091187
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "Question": "what food is in the plate in front of the person?",
+                "Predicted Answer": "Fries",
+                "Ground Truth Answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0,
+                    0.883197546005249
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "Question": "what is the person grasping?",
+                "Predicted Answer": "Handle",
+                "Ground Truth Answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "Cosine Similarity Score": 0.6978118419647217,
+                "All Scores": [
+                    0.3158930540084839,
+                    0.3778461217880249,
+                    0.6978118419647217
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "Question": "how many pots are on the stove?",
+                "Predicted Answer": "1",
+                "Ground Truth Answers": [
+                    "2"
+                ],
+                "Cosine Similarity Score": 0.8054155111312866,
+                "All Scores": [
+                    0.8054155111312866
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "Question": "what color is food in the pot?",
+                "Predicted Answer": "Yellow",
+                "Ground Truth Answers": [
+                    "yellow"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "Question": "what object is the filling?",
+                "Predicted Answer": "Kettle",
+                "Ground Truth Answers": [
+                    "jar"
+                ],
+                "Cosine Similarity Score": 0.2682284116744995,
+                "All Scores": [
+                    0.2682284116744995
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "Question": "what is the person looking at?",
+                "Predicted Answer": "Stove",
+                "Ground Truth Answers": [
+                    "pot"
+                ],
+                "Cosine Similarity Score": 0.603794515132904,
+                "All Scores": [
+                    0.603794515132904
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "Question": "what is the green food in the image?",
+                "Predicted Answer": "Lettuce",
+                "Ground Truth Answers": [
+                    "grapes"
+                ],
+                "Cosine Similarity Score": 0.38543546199798584,
+                "All Scores": [
+                    0.38543546199798584
+                ]
+            }
+        }
+    ],
+    "context_patches_320": [
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Blender",
+                "Ground Truth Answers": [
+                    "blender"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "Question": "what food is in the plate in front of the person?",
+                "Predicted Answer": "Fries",
+                "Ground Truth Answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0,
+                    0.883197546005249
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "Question": "what liquid is being filled into the container?",
+                "Predicted Answer": "Water",
+                "Ground Truth Answers": [
+                    "water"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "Question": "what is the person grasping in her right hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "plate"
+                ],
+                "Cosine Similarity Score": 0.40946727991104126,
+                "All Scores": [
+                    0.40946727991104126
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "Question": "what is the person holding in their hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "box"
+                ],
+                "Cosine Similarity Score": 0.3728597164154053,
+                "All Scores": [
+                    0.3728597164154053
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "Question": "what is the person holding in their right hand?",
+                "Predicted Answer": "Milk",
+                "Ground Truth Answers": [
+                    "bottle"
+                ],
+                "Cosine Similarity Score": 0.5976970195770264,
+                "All Scores": [
+                    0.5976970195770264
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "Question": "what is the person doing?",
+                "Predicted Answer": "Washing dishes",
+                "Ground Truth Answers": [
+                    "washing"
+                ],
+                "Cosine Similarity Score": 0.7096564769744873,
+                "All Scores": [
+                    0.7096564769744873
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "Question": "what food is on the counter?",
+                "Predicted Answer": "Orange",
+                "Ground Truth Answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    0.25969693064689636,
+                    0.24079671502113342,
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Dishwasher",
+                "Ground Truth Answers": [
+                    "dishwasher"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "Question": "what is the green food in the image?",
+                "Predicted Answer": "Lettuce",
+                "Ground Truth Answers": [
+                    "grapes"
+                ],
+                "Cosine Similarity Score": 0.38543546199798584,
+                "All Scores": [
+                    0.38543546199798584
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "Question": "what is the person looking at?",
+                "Predicted Answer": "Stove",
+                "Ground Truth Answers": [
+                    "pot"
+                ],
+                "Cosine Similarity Score": 0.603794515132904,
+                "All Scores": [
+                    0.603794515132904
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "Question": "what object is the filling?",
+                "Predicted Answer": "Kettle",
+                "Ground Truth Answers": [
+                    "jar"
+                ],
+                "Cosine Similarity Score": 0.2682284116744995,
+                "All Scores": [
+                    0.2682284116744995
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "Question": "what color is food in the pot?",
+                "Predicted Answer": "Green",
+                "Ground Truth Answers": [
+                    "yellow"
+                ],
+                "Cosine Similarity Score": 0.6584212183952332,
+                "All Scores": [
+                    0.6584212183952332
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "Question": "how many pots are on the stove?",
+                "Predicted Answer": "1",
+                "Ground Truth Answers": [
+                    "2"
+                ],
+                "Cosine Similarity Score": 0.8054155111312866,
+                "All Scores": [
+                    0.8054155111312866
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "Question": "what is the person grasping?",
+                "Predicted Answer": "Oven door",
+                "Ground Truth Answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "Cosine Similarity Score": 0.6886215209960938,
+                "All Scores": [
+                    0.36899569630622864,
+                    0.6886215209960938,
+                    0.6242368221282959
+                ]
+            }
+        }
+    ],
+    "context_patches_896": [
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "Question": "what is the person looking at?",
+                "Predicted Answer": "Stove",
+                "Ground Truth Answers": [
+                    "pot"
+                ],
+                "Cosine Similarity Score": 0.603794515132904,
+                "All Scores": [
+                    0.603794515132904
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "Question": "what is the green food in the image?",
+                "Predicted Answer": "Lettuce",
+                "Ground Truth Answers": [
+                    "grapes"
+                ],
+                "Cosine Similarity Score": 0.38543546199798584,
+                "All Scores": [
+                    0.38543546199798584
+                ]
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Blender",
+                "Ground Truth Answers": [
+                    "blender"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "Question": "what is the person grasping?",
+                "Predicted Answer": "Handle",
+                "Ground Truth Answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "Cosine Similarity Score": 0.6978118419647217,
+                "All Scores": [
+                    0.3158930540084839,
+                    0.3778461217880249,
+                    0.6978118419647217
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "Question": "how many pots are on the stove?",
+                "Predicted Answer": "1",
+                "Ground Truth Answers": [
+                    "2"
+                ],
+                "Cosine Similarity Score": 0.8054155111312866,
+                "All Scores": [
+                    0.8054155111312866
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "Question": "what color is food in the pot?",
+                "Predicted Answer": "Yellow",
+                "Ground Truth Answers": [
+                    "yellow"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "Question": "what object is the filling?",
+                "Predicted Answer": "Kettle",
+                "Ground Truth Answers": [
+                    "jar"
+                ],
+                "Cosine Similarity Score": 0.2682284116744995,
+                "All Scores": [
+                    0.2682284116744995
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "Question": "what is the person holding in their right hand?",
+                "Predicted Answer": "Milk",
+                "Ground Truth Answers": [
+                    "bottle"
+                ],
+                "Cosine Similarity Score": 0.5976970195770264,
+                "All Scores": [
+                    0.5976970195770264
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "Question": "what is the person holding in their hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "box"
+                ],
+                "Cosine Similarity Score": 0.3728597164154053,
+                "All Scores": [
+                    0.3728597164154053
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "Question": "what liquid is being filled into the container?",
+                "Predicted Answer": "Oil",
+                "Ground Truth Answers": [
+                    "water"
+                ],
+                "Cosine Similarity Score": 0.5520633459091187,
+                "All Scores": [
+                    0.5520633459091187
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "Question": "what is the person grasping in her right hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "plate"
+                ],
+                "Cosine Similarity Score": 0.40946727991104126,
+                "All Scores": [
+                    0.40946727991104126
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "Question": "what food is in the plate in front of the person?",
+                "Predicted Answer": "Fries",
+                "Ground Truth Answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0,
+                    0.883197546005249
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Dishwasher",
+                "Ground Truth Answers": [
+                    "dishwasher"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "Question": "what food is on the counter?",
+                "Predicted Answer": "Orange",
+                "Ground Truth Answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    0.25969693064689636,
+                    0.24079671502113342,
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "Question": "what is the person doing?",
+                "Predicted Answer": "Washing dishes",
+                "Ground Truth Answers": [
+                    "washing"
+                ],
+                "Cosine Similarity Score": 0.7096564769744873,
+                "All Scores": [
+                    0.7096564769744873
+                ]
+            }
+        }
+    ],
+    "context_patches_224": [
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "Question": "what food is on the counter?",
+                "Predicted Answer": "None",
+                "Ground Truth Answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "Cosine Similarity Score": 0.2848917245864868,
+                "All Scores": [
+                    0.18748454749584198,
+                    0.2068689912557602,
+                    0.2848917245864868
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Dishwasher",
+                "Ground Truth Answers": [
+                    "dishwasher"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "Question": "what is the person doing?",
+                "Predicted Answer": "Cleaning",
+                "Ground Truth Answers": [
+                    "washing"
+                ],
+                "Cosine Similarity Score": 0.7238485217094421,
+                "All Scores": [
+                    0.7238485217094421
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "Question": "what is the person holding in their hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "box"
+                ],
+                "Cosine Similarity Score": 0.3728597164154053,
+                "All Scores": [
+                    0.3728597164154053
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "Question": "what is the person holding in their right hand?",
+                "Predicted Answer": "Milk",
+                "Ground Truth Answers": [
+                    "bottle"
+                ],
+                "Cosine Similarity Score": 0.5976970195770264,
+                "All Scores": [
+                    0.5976970195770264
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "Question": "what liquid is being filled into the container?",
+                "Predicted Answer": "Water",
+                "Ground Truth Answers": [
+                    "water"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "Question": "what is the person grasping in her right hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "plate"
+                ],
+                "Cosine Similarity Score": 0.40946727991104126,
+                "All Scores": [
+                    0.40946727991104126
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "Question": "what food is in the plate in front of the person?",
+                "Predicted Answer": "Fries",
+                "Ground Truth Answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0,
+                    0.883197546005249
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "Question": "what is the person grasping?",
+                "Predicted Answer": "Oven door",
+                "Ground Truth Answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "Cosine Similarity Score": 0.6886215209960938,
+                "All Scores": [
+                    0.36899569630622864,
+                    0.6886215209960938,
+                    0.6242368221282959
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "Question": "how many pots are on the stove?",
+                "Predicted Answer": "2",
+                "Ground Truth Answers": [
+                    "2"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "Question": "what object is the filling?",
+                "Predicted Answer": "Kettle",
+                "Ground Truth Answers": [
+                    "jar"
+                ],
+                "Cosine Similarity Score": 0.2682284116744995,
+                "All Scores": [
+                    0.2682284116744995
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "Question": "what color is food in the pot?",
+                "Predicted Answer": "Green",
+                "Ground Truth Answers": [
+                    "yellow"
+                ],
+                "Cosine Similarity Score": 0.6584212183952332,
+                "All Scores": [
+                    0.6584212183952332
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "Question": "what is the person looking at?",
+                "Predicted Answer": "Stove",
+                "Ground Truth Answers": [
+                    "pot"
+                ],
+                "Cosine Similarity Score": 0.603794515132904,
+                "All Scores": [
+                    0.603794515132904
+                ]
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Blender",
+                "Ground Truth Answers": [
+                    "blender"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "Question": "what is the green food in the image?",
+                "Predicted Answer": "Lettuce",
+                "Ground Truth Answers": [
+                    "grapes"
+                ],
+                "Cosine Similarity Score": 0.38543546199798584,
+                "All Scores": [
+                    0.38543546199798584
+                ]
+            }
+        }
+    ],
+    "context_patches_640": [
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "Question": "what is the person looking at?",
+                "Predicted Answer": "Stove",
+                "Ground Truth Answers": [
+                    "pot"
+                ],
+                "Cosine Similarity Score": 0.603794515132904,
+                "All Scores": [
+                    0.603794515132904
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "Question": "what is the green food in the image?",
+                "Predicted Answer": "Lettuce",
+                "Ground Truth Answers": [
+                    "grapes"
+                ],
+                "Cosine Similarity Score": 0.38543546199798584,
+                "All Scores": [
+                    0.38543546199798584
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "Question": "what is the person grasping?",
+                "Predicted Answer": "Door",
+                "Ground Truth Answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    0.4296870529651642,
+                    1.0,
+                    0.7185869216918945
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "Question": "how many pots are on the stove?",
+                "Predicted Answer": "1",
+                "Ground Truth Answers": [
+                    "2"
+                ],
+                "Cosine Similarity Score": 0.8054155111312866,
+                "All Scores": [
+                    0.8054155111312866
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "Question": "what object is the filling?",
+                "Predicted Answer": "Kettle",
+                "Ground Truth Answers": [
+                    "jar"
+                ],
+                "Cosine Similarity Score": 0.2682284116744995,
+                "All Scores": [
+                    0.2682284116744995
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "Question": "what color is food in the pot?",
+                "Predicted Answer": "Yellow",
+                "Ground Truth Answers": [
+                    "yellow"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "Question": "what is the person holding in their hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "box"
+                ],
+                "Cosine Similarity Score": 0.3728597164154053,
+                "All Scores": [
+                    0.3728597164154053
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "Question": "what is the person holding in their right hand?",
+                "Predicted Answer": "Milk",
+                "Ground Truth Answers": [
+                    "bottle"
+                ],
+                "Cosine Similarity Score": 0.5976970195770264,
+                "All Scores": [
+                    0.5976970195770264
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "Question": "what food is in the plate in front of the person?",
+                "Predicted Answer": "Fries",
+                "Ground Truth Answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0,
+                    0.883197546005249
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "Question": "what is the person grasping in her right hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "plate"
+                ],
+                "Cosine Similarity Score": 0.40946727991104126,
+                "All Scores": [
+                    0.40946727991104126
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "Question": "what liquid is being filled into the container?",
+                "Predicted Answer": "Oil",
+                "Ground Truth Answers": [
+                    "water"
+                ],
+                "Cosine Similarity Score": 0.5520633459091187,
+                "All Scores": [
+                    0.5520633459091187
+                ]
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Blender",
+                "Ground Truth Answers": [
+                    "blender"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "Question": "what food is on the counter?",
+                "Predicted Answer": "Orange",
+                "Ground Truth Answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    0.25969693064689636,
+                    0.24079671502113342,
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Dishwasher",
+                "Ground Truth Answers": [
+                    "dishwasher"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "Question": "what is the person doing?",
+                "Predicted Answer": "Washing dishes",
+                "Ground Truth Answers": [
+                    "washing"
+                ],
+                "Cosine Similarity Score": 0.7096564769744873,
+                "All Scores": [
+                    0.7096564769744873
+                ]
+            }
+        }
+    ],
+    "context_patches_512": [
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "Question": "what object is the filling?",
+                "Predicted Answer": "Kettle",
+                "Ground Truth Answers": [
+                    "jar"
+                ],
+                "Cosine Similarity Score": 0.2682284116744995,
+                "All Scores": [
+                    0.2682284116744995
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "Question": "what color is food in the pot?",
+                "Predicted Answer": "Yellow",
+                "Ground Truth Answers": [
+                    "yellow"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "Question": "how many pots are on the stove?",
+                "Predicted Answer": "1",
+                "Ground Truth Answers": [
+                    "2"
+                ],
+                "Cosine Similarity Score": 0.8054155111312866,
+                "All Scores": [
+                    0.8054155111312866
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "Question": "what is the person grasping?",
+                "Predicted Answer": "Handle",
+                "Ground Truth Answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "Cosine Similarity Score": 0.6978118419647217,
+                "All Scores": [
+                    0.3158930540084839,
+                    0.3778461217880249,
+                    0.6978118419647217
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "Question": "what is the green food in the image?",
+                "Predicted Answer": "Lettuce",
+                "Ground Truth Answers": [
+                    "grapes"
+                ],
+                "Cosine Similarity Score": 0.38543546199798584,
+                "All Scores": [
+                    0.38543546199798584
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "Question": "what is the person looking at?",
+                "Predicted Answer": "Stove",
+                "Ground Truth Answers": [
+                    "pot"
+                ],
+                "Cosine Similarity Score": 0.603794515132904,
+                "All Scores": [
+                    0.603794515132904
+                ]
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Blender",
+                "Ground Truth Answers": [
+                    "blender"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "Question": "what is the person doing?",
+                "Predicted Answer": "Washing dishes",
+                "Ground Truth Answers": [
+                    "washing"
+                ],
+                "Cosine Similarity Score": 0.7096564769744873,
+                "All Scores": [
+                    0.7096564769744873
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "Question": "what food is on the counter?",
+                "Predicted Answer": "Orange",
+                "Ground Truth Answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    0.25969693064689636,
+                    0.24079671502113342,
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Dishwasher",
+                "Ground Truth Answers": [
+                    "dishwasher"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "Question": "what is the person holding in their hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "box"
+                ],
+                "Cosine Similarity Score": 0.3728597164154053,
+                "All Scores": [
+                    0.3728597164154053
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "Question": "what is the person holding in their right hand?",
+                "Predicted Answer": "Milk",
+                "Ground Truth Answers": [
+                    "bottle"
+                ],
+                "Cosine Similarity Score": 0.5976970195770264,
+                "All Scores": [
+                    0.5976970195770264
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "Question": "what is the person grasping in her right hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "plate"
+                ],
+                "Cosine Similarity Score": 0.40946727991104126,
+                "All Scores": [
+                    0.40946727991104126
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "Question": "what liquid is being filled into the container?",
+                "Predicted Answer": "Water",
+                "Ground Truth Answers": [
+                    "water"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "Question": "what food is in the plate in front of the person?",
+                "Predicted Answer": "Fries",
+                "Ground Truth Answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0,
+                    0.883197546005249
+                ]
+            }
+        }
+    ],
+    "context_patches_228": [
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "Question": "what food is in the plate in front of the person?",
+                "Predicted Answer": "Fries",
+                "Ground Truth Answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0,
+                    0.883197546005249
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "Question": "what liquid is being filled into the container?",
+                "Predicted Answer": "Water",
+                "Ground Truth Answers": [
+                    "water"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "Question": "what is the person grasping in her right hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "plate"
+                ],
+                "Cosine Similarity Score": 0.40946727991104126,
+                "All Scores": [
+                    0.40946727991104126
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "Question": "what is the person holding in their hand?",
+                "Predicted Answer": "Guitar",
+                "Ground Truth Answers": [
+                    "box"
+                ],
+                "Cosine Similarity Score": 0.31900328397750854,
+                "All Scores": [
+                    0.31900328397750854
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "Question": "what is the person holding in their right hand?",
+                "Predicted Answer": "Milk",
+                "Ground Truth Answers": [
+                    "bottle"
+                ],
+                "Cosine Similarity Score": 0.5976970195770264,
+                "All Scores": [
+                    0.5976970195770264
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "Question": "what food is on the counter?",
+                "Predicted Answer": "None",
+                "Ground Truth Answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "Cosine Similarity Score": 0.2848917245864868,
+                "All Scores": [
+                    0.18748454749584198,
+                    0.2068689912557602,
+                    0.2848917245864868
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Dishwasher",
+                "Ground Truth Answers": [
+                    "dishwasher"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "Question": "what is the person doing?",
+                "Predicted Answer": "Washing dishes",
+                "Ground Truth Answers": [
+                    "washing"
+                ],
+                "Cosine Similarity Score": 0.7096564769744873,
+                "All Scores": [
+                    0.7096564769744873
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "Question": "what is the green food in the image?",
+                "Predicted Answer": "Lettuce",
+                "Ground Truth Answers": [
+                    "grapes"
+                ],
+                "Cosine Similarity Score": 0.38543546199798584,
+                "All Scores": [
+                    0.38543546199798584
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "Question": "what is the person looking at?",
+                "Predicted Answer": "Kitchen",
+                "Ground Truth Answers": [
+                    "pot"
+                ],
+                "Cosine Similarity Score": 0.4716646075248718,
+                "All Scores": [
+                    0.4716646075248718
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "Question": "what object is the filling?",
+                "Predicted Answer": "Kettle",
+                "Ground Truth Answers": [
+                    "jar"
+                ],
+                "Cosine Similarity Score": 0.2682284116744995,
+                "All Scores": [
+                    0.2682284116744995
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "Question": "what color is food in the pot?",
+                "Predicted Answer": "Yellow",
+                "Ground Truth Answers": [
+                    "yellow"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Blender",
+                "Ground Truth Answers": [
+                    "blender"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "Question": "what is the person grasping?",
+                "Predicted Answer": "Door",
+                "Ground Truth Answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    0.4296870529651642,
+                    1.0,
+                    0.7185869216918945
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "Question": "how many pots are on the stove?",
+                "Predicted Answer": "1",
+                "Ground Truth Answers": [
+                    "2"
+                ],
+                "Cosine Similarity Score": 0.8054155111312866,
+                "All Scores": [
+                    0.8054155111312866
+                ]
+            }
+        }
+    ],
+    "context_patches_384": [
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "Question": "what liquid is being filled into the container?",
+                "Predicted Answer": "Water",
+                "Ground Truth Answers": [
+                    "water"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "Question": "what is the person grasping in her right hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "plate"
+                ],
+                "Cosine Similarity Score": 0.40946727991104126,
+                "All Scores": [
+                    0.40946727991104126
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "Question": "what food is in the plate in front of the person?",
+                "Predicted Answer": "Fries",
+                "Ground Truth Answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0,
+                    0.883197546005249
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "Question": "what is the person holding in their right hand?",
+                "Predicted Answer": "Milk",
+                "Ground Truth Answers": [
+                    "bottle"
+                ],
+                "Cosine Similarity Score": 0.5976970195770264,
+                "All Scores": [
+                    0.5976970195770264
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "Question": "what is the person holding in their hand?",
+                "Predicted Answer": "Knife",
+                "Ground Truth Answers": [
+                    "box"
+                ],
+                "Cosine Similarity Score": 0.3728597164154053,
+                "All Scores": [
+                    0.3728597164154053
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "Question": "what is the person doing?",
+                "Predicted Answer": "Washing dishes",
+                "Ground Truth Answers": [
+                    "washing"
+                ],
+                "Cosine Similarity Score": 0.7096564769744873,
+                "All Scores": [
+                    0.7096564769744873
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "Question": "what food is on the counter?",
+                "Predicted Answer": "Orange",
+                "Ground Truth Answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    0.25969693064689636,
+                    0.24079671502113342,
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Dishwasher",
+                "Ground Truth Answers": [
+                    "dishwasher"
+                ],
+                "Cosine Similarity Score": 1.0,
+                "All Scores": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "Question": "what is the person looking at?",
+                "Predicted Answer": "Stove",
+                "Ground Truth Answers": [
+                    "pot"
+                ],
+                "Cosine Similarity Score": 0.603794515132904,
+                "All Scores": [
+                    0.603794515132904
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "Question": "what is the green food in the image?",
+                "Predicted Answer": "Lettuce",
+                "Ground Truth Answers": [
+                    "grapes"
+                ],
+                "Cosine Similarity Score": 0.38543546199798584,
+                "All Scores": [
+                    0.38543546199798584
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "Question": "how many pots are on the stove?",
+                "Predicted Answer": "1",
+                "Ground Truth Answers": [
+                    "2"
+                ],
+                "Cosine Similarity Score": 0.8054155111312866,
+                "All Scores": [
+                    0.8054155111312866
+                ]
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "Question": "what equipment is the person using?",
+                "Predicted Answer": "Blender",
+                "Ground Truth Answers": [
+                    "blender"
+                ],
+                "Cosine Similarity Score": 1.0000001192092896,
+                "All Scores": [
+                    1.0000001192092896
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "Question": "what is the person grasping?",
+                "Predicted Answer": "Handle",
+                "Ground Truth Answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "Cosine Similarity Score": 0.6978118419647217,
+                "All Scores": [
+                    0.3158930540084839,
+                    0.3778461217880249,
+                    0.6978118419647217
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "Question": "what object is the filling?",
+                "Predicted Answer": "Kettle",
+                "Ground Truth Answers": [
+                    "jar"
+                ],
+                "Cosine Similarity Score": 0.2682284116744995,
+                "All Scores": [
+                    0.2682284116744995
+                ]
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "Question": "what color is food in the pot?",
+                "Predicted Answer": "Green",
+                "Ground Truth Answers": [
+                    "yellow"
+                ],
+                "Cosine Similarity Score": 0.6584212183952332,
+                "All Scores": [
+                    0.6584212183952332
+                ]
+            }
+        }
+    ]
+}

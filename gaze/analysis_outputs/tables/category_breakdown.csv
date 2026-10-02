@@ -1,0 +1,6 @@
+QuestionCategory,WinningStrategy,WinningScore,ResizeScore,CenterZoomScore,GazeZoomScore
+"Action Recognition",Gaze Zoom,0.714978,0.710543,0.700431,0.714978
+"Equipment & Tools",Resize,1.000000,1.000000,0.733100,0.756023
+"Food & Objects",Resize,0.745672,0.745672,0.708050,0.695783
+"Gaze & Spatial Attention",Center Zoom,0.775058,0.595536,0.775058,0.768188
+"General Object QA",Resize,0.582206,0.582206,0.537838,0.548284

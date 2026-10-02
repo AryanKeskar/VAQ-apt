@@ -1,0 +1,2218 @@
+{
+    "context_patches320": [
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "question": "what food is on the counter?",
+                "model_response": "None",
+                "ground_truth_answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "final_score": 0.2848917245864868
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "question": "what object is the filling?",
+                "model_response": "Pipe",
+                "ground_truth_answers": [
+                    "jar"
+                ],
+                "final_score": 0.24503540992736816
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "question": "what is the person doing?",
+                "model_response": "Bathing",
+                "ground_truth_answers": [
+                    "washing"
+                ],
+                "final_score": 0.6367992758750916
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Hair dryer",
+                "ground_truth_answers": [
+                    "blender"
+                ],
+                "final_score": 0.3593950569629669
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "question": "what is the person looking at?",
+                "model_response": "Pot",
+                "ground_truth_answers": [
+                    "pot"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "question": "what color is food in the pot?",
+                "model_response": "Yellow",
+                "ground_truth_answers": [
+                    "yellow"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "question": "what is the person holding in their right hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "bottle"
+                ],
+                "final_score": 0.4162779748439789
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "question": "what is the person holding in their hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "box"
+                ],
+                "final_score": 0.3728597164154053
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "question": "what is the person grasping in her right hand?",
+                "model_response": "Nothing",
+                "ground_truth_answers": [
+                    "plate"
+                ],
+                "final_score": 0.2853868007659912
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Dishwasher",
+                "ground_truth_answers": [
+                    "dishwasher"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "question": "what is the person grasping?",
+                "model_response": "Nothing",
+                "ground_truth_answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "final_score": 0.2969176769256592
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "question": "what is the green food in the image?",
+                "model_response": "Lettuce",
+                "ground_truth_answers": [
+                    "grapes"
+                ],
+                "final_score": 0.38543546199798584
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "question": "how many pots are on the stove?",
+                "model_response": "1",
+                "ground_truth_answers": [
+                    "2"
+                ],
+                "final_score": 0.8054155111312866
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "question": "what food is in the plate in front of the person?",
+                "model_response": "Fries",
+                "ground_truth_answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 320,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "question": "what liquid is being filled into the container?",
+                "model_response": "Water",
+                "ground_truth_answers": [
+                    "water"
+                ],
+                "final_score": 1.0
+            }
+        }
+    ],
+    "context_patches704": [
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Dishwasher",
+                "ground_truth_answers": [
+                    "dishwasher"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "question": "what is the person grasping?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "final_score": 0.5009510517120361
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "question": "what is the green food in the image?",
+                "model_response": "Lettuce",
+                "ground_truth_answers": [
+                    "grapes"
+                ],
+                "final_score": 0.38543546199798584
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "question": "how many pots are on the stove?",
+                "model_response": "2",
+                "ground_truth_answers": [
+                    "2"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "question": "what food is in the plate in front of the person?",
+                "model_response": "Fries",
+                "ground_truth_answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "question": "what liquid is being filled into the container?",
+                "model_response": "Oil",
+                "ground_truth_answers": [
+                    "water"
+                ],
+                "final_score": 0.5520633459091187
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "question": "what is the person holding in their hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "box"
+                ],
+                "final_score": 0.3728597164154053
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "question": "what is the person grasping in her right hand?",
+                "model_response": "Dish",
+                "ground_truth_answers": [
+                    "plate"
+                ],
+                "final_score": 0.5335618257522583
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Mixer",
+                "ground_truth_answers": [
+                    "blender"
+                ],
+                "final_score": 0.5054394006729126
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "question": "what is the person looking at?",
+                "model_response": "Pots",
+                "ground_truth_answers": [
+                    "pot"
+                ],
+                "final_score": 0.8568564057350159
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "question": "what color is food in the pot?",
+                "model_response": "Yellow",
+                "ground_truth_answers": [
+                    "yellow"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "question": "what is the person holding in their right hand?",
+                "model_response": "Nothing",
+                "ground_truth_answers": [
+                    "bottle"
+                ],
+                "final_score": 0.3421553075313568
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "question": "what food is on the counter?",
+                "model_response": "Orange",
+                "ground_truth_answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "question": "what is the person doing?",
+                "model_response": "Cleaning",
+                "ground_truth_answers": [
+                    "washing"
+                ],
+                "final_score": 0.7238485217094421
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 704,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "question": "what object is the filling?",
+                "model_response": "Bottle",
+                "ground_truth_answers": [
+                    "jar"
+                ],
+                "final_score": 0.4292891025543213
+            }
+        }
+    ],
+    "context_patches224": [
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "question": "what food is on the counter?",
+                "model_response": "None",
+                "ground_truth_answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "final_score": 0.2848917245864868
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "question": "what object is the filling?",
+                "model_response": "Pipe",
+                "ground_truth_answers": [
+                    "jar"
+                ],
+                "final_score": 0.24503540992736816
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "question": "what is the person doing?",
+                "model_response": "Bathing",
+                "ground_truth_answers": [
+                    "washing"
+                ],
+                "final_score": 0.6367992758750916
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "question": "what is the person looking at?",
+                "model_response": "Pot",
+                "ground_truth_answers": [
+                    "pot"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "question": "what color is food in the pot?",
+                "model_response": "Yellow",
+                "ground_truth_answers": [
+                    "yellow"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "question": "what is the person holding in their right hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "bottle"
+                ],
+                "final_score": 0.4162779748439789
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Camera",
+                "ground_truth_answers": [
+                    "blender"
+                ],
+                "final_score": 0.3702888786792755
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "question": "what is the person holding in their hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "box"
+                ],
+                "final_score": 0.3728597164154053
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "question": "what is the person grasping in her right hand?",
+                "model_response": "Nothing",
+                "ground_truth_answers": [
+                    "plate"
+                ],
+                "final_score": 0.2853868007659912
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Camera",
+                "ground_truth_answers": [
+                    "dishwasher"
+                ],
+                "final_score": 0.309736043214798
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "question": "what is the person grasping?",
+                "model_response": "Nothing",
+                "ground_truth_answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "final_score": 0.2969176769256592
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "question": "what is the green food in the image?",
+                "model_response": "Lettuce",
+                "ground_truth_answers": [
+                    "grapes"
+                ],
+                "final_score": 0.38543546199798584
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "question": "how many pots are on the stove?",
+                "model_response": "1",
+                "ground_truth_answers": [
+                    "2"
+                ],
+                "final_score": 0.8054155111312866
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "question": "what food is in the plate in front of the person?",
+                "model_response": "Fries",
+                "ground_truth_answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 224,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "question": "what liquid is being filled into the container?",
+                "model_response": "Water",
+                "ground_truth_answers": [
+                    "water"
+                ],
+                "final_score": 1.0
+            }
+        }
+    ],
+    "context_patches896": [
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "question": "what is the person holding in their right hand?",
+                "model_response": "Milk",
+                "ground_truth_answers": [
+                    "bottle"
+                ],
+                "final_score": 0.5976970195770264
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "question": "what color is food in the pot?",
+                "model_response": "Yellow",
+                "ground_truth_answers": [
+                    "yellow"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "question": "what is the person looking at?",
+                "model_response": "Pots",
+                "ground_truth_answers": [
+                    "pot"
+                ],
+                "final_score": 0.8568564057350159
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "question": "what is the person doing?",
+                "model_response": "Cleaning",
+                "ground_truth_answers": [
+                    "washing"
+                ],
+                "final_score": 0.7238485217094421
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "question": "what object is the filling?",
+                "model_response": "Faucet",
+                "ground_truth_answers": [
+                    "jar"
+                ],
+                "final_score": 0.24998322129249573
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Blender",
+                "ground_truth_answers": [
+                    "blender"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "question": "what food is on the counter?",
+                "model_response": "Orange",
+                "ground_truth_answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "question": "what liquid is being filled into the container?",
+                "model_response": "Water",
+                "ground_truth_answers": [
+                    "water"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "question": "what food is in the plate in front of the person?",
+                "model_response": "Fries",
+                "ground_truth_answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "question": "how many pots are on the stove?",
+                "model_response": "2",
+                "ground_truth_answers": [
+                    "2"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "question": "what is the green food in the image?",
+                "model_response": "Lettuce",
+                "ground_truth_answers": [
+                    "grapes"
+                ],
+                "final_score": 0.38543546199798584
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "question": "what is the person grasping?",
+                "model_response": "Knob",
+                "ground_truth_answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "final_score": 0.4984043538570404
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Dishwasher",
+                "ground_truth_answers": [
+                    "dishwasher"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "question": "what is the person grasping in her right hand?",
+                "model_response": "Dish",
+                "ground_truth_answers": [
+                    "plate"
+                ],
+                "final_score": 0.5335618257522583
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 896,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "question": "what is the person holding in their hand?",
+                "model_response": "Box",
+                "ground_truth_answers": [
+                    "box"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        }
+    ],
+    "context_patches512": [
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "question": "what is the person looking at?",
+                "model_response": "Pot",
+                "ground_truth_answers": [
+                    "pot"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "question": "what is the person holding in their right hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "bottle"
+                ],
+                "final_score": 0.4162779748439789
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "question": "what color is food in the pot?",
+                "model_response": "Yellow",
+                "ground_truth_answers": [
+                    "yellow"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Phone",
+                "ground_truth_answers": [
+                    "blender"
+                ],
+                "final_score": 0.3353215754032135
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "question": "what food is on the counter?",
+                "model_response": "None",
+                "ground_truth_answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "final_score": 0.2848917245864868
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "question": "what is the person doing?",
+                "model_response": "Cleaning",
+                "ground_truth_answers": [
+                    "washing"
+                ],
+                "final_score": 0.7238485217094421
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "question": "what object is the filling?",
+                "model_response": "Bottle",
+                "ground_truth_answers": [
+                    "jar"
+                ],
+                "final_score": 0.4292891025543213
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "question": "what is the green food in the image?",
+                "model_response": "Lettuce",
+                "ground_truth_answers": [
+                    "grapes"
+                ],
+                "final_score": 0.38543546199798584
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "question": "what is the person grasping?",
+                "model_response": "Pans",
+                "ground_truth_answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "final_score": 0.34054890275001526
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Dishwasher",
+                "ground_truth_answers": [
+                    "dishwasher"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "question": "what liquid is being filled into the container?",
+                "model_response": "Milk",
+                "ground_truth_answers": [
+                    "water"
+                ],
+                "final_score": 0.580583930015564
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "question": "what food is in the plate in front of the person?",
+                "model_response": "Fries",
+                "ground_truth_answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "question": "how many pots are on the stove?",
+                "model_response": "2",
+                "ground_truth_answers": [
+                    "2"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "question": "what is the person grasping in her right hand?",
+                "model_response": "Dish",
+                "ground_truth_answers": [
+                    "plate"
+                ],
+                "final_score": 0.5335618257522583
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 512,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "question": "what is the person holding in their hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "box"
+                ],
+                "final_score": 0.3728597164154053
+            }
+        }
+    ],
+    "context_patches640": [
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Phone",
+                "ground_truth_answers": [
+                    "blender"
+                ],
+                "final_score": 0.3353215754032135
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "question": "what is the person holding in their hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "box"
+                ],
+                "final_score": 0.3728597164154053
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "question": "what is the person grasping in her right hand?",
+                "model_response": "Dish",
+                "ground_truth_answers": [
+                    "plate"
+                ],
+                "final_score": 0.5335618257522583
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "question": "how many pots are on the stove?",
+                "model_response": "2",
+                "ground_truth_answers": [
+                    "2"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "question": "what food is in the plate in front of the person?",
+                "model_response": "Fries",
+                "ground_truth_answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "question": "what liquid is being filled into the container?",
+                "model_response": "Oil",
+                "ground_truth_answers": [
+                    "water"
+                ],
+                "final_score": 0.5520633459091187
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Dishwasher",
+                "ground_truth_answers": [
+                    "dishwasher"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "question": "what is the person grasping?",
+                "model_response": "Stove",
+                "ground_truth_answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "final_score": 0.35181012749671936
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "question": "what is the green food in the image?",
+                "model_response": "Lettuce",
+                "ground_truth_answers": [
+                    "grapes"
+                ],
+                "final_score": 0.38543546199798584
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "question": "what is the person doing?",
+                "model_response": "Cleaning",
+                "ground_truth_answers": [
+                    "washing"
+                ],
+                "final_score": 0.7238485217094421
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "question": "what object is the filling?",
+                "model_response": "Bottle",
+                "ground_truth_answers": [
+                    "jar"
+                ],
+                "final_score": 0.4292891025543213
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "question": "what food is on the counter?",
+                "model_response": "None",
+                "ground_truth_answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "final_score": 0.2848917245864868
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "question": "what color is food in the pot?",
+                "model_response": "Yellow",
+                "ground_truth_answers": [
+                    "yellow"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "question": "what is the person holding in their right hand?",
+                "model_response": "Nothing",
+                "ground_truth_answers": [
+                    "bottle"
+                ],
+                "final_score": 0.3421553075313568
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 640,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "question": "what is the person looking at?",
+                "model_response": "Pots",
+                "ground_truth_answers": [
+                    "pot"
+                ],
+                "final_score": 0.8568564057350159
+            }
+        }
+    ],
+    "context_patches384": [
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "question": "what color is food in the pot?",
+                "model_response": "Yellow",
+                "ground_truth_answers": [
+                    "yellow"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "question": "what is the person holding in their right hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "bottle"
+                ],
+                "final_score": 0.4162779748439789
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "question": "what is the person looking at?",
+                "model_response": "Pot",
+                "ground_truth_answers": [
+                    "pot"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "question": "what object is the filling?",
+                "model_response": "Pipe",
+                "ground_truth_answers": [
+                    "jar"
+                ],
+                "final_score": 0.24503540992736816
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "question": "what is the person doing?",
+                "model_response": "Cleaning",
+                "ground_truth_answers": [
+                    "washing"
+                ],
+                "final_score": 0.7238485217094421
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "question": "what food is on the counter?",
+                "model_response": "None",
+                "ground_truth_answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "final_score": 0.2848917245864868
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "question": "what food is in the plate in front of the person?",
+                "model_response": "Fries",
+                "ground_truth_answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "question": "how many pots are on the stove?",
+                "model_response": "1",
+                "ground_truth_answers": [
+                    "2"
+                ],
+                "final_score": 0.8054155111312866
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "question": "what liquid is being filled into the container?",
+                "model_response": "Water",
+                "ground_truth_answers": [
+                    "water"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "question": "what is the person grasping?",
+                "model_response": "Pot",
+                "ground_truth_answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "final_score": 0.2985692322254181
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Dishwasher",
+                "ground_truth_answers": [
+                    "dishwasher"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Phone",
+                "ground_truth_answers": [
+                    "blender"
+                ],
+                "final_score": 0.3353215754032135
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "question": "what is the green food in the image?",
+                "model_response": "Lettuce",
+                "ground_truth_answers": [
+                    "grapes"
+                ],
+                "final_score": 0.38543546199798584
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "question": "what is the person grasping in her right hand?",
+                "model_response": "Dish",
+                "ground_truth_answers": [
+                    "plate"
+                ],
+                "final_score": 0.5335618257522583
+            }
+        },
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 384,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "question": "what is the person holding in their hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "box"
+                ],
+                "final_score": 0.3728597164154053
+            }
+        }
+    ],
+    "context_patches228": [
+        {
+            "P01-20240202-1613544906": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    669,
+                    851,
+                    793,
+                    975
+                ],
+                "question": "what is the person holding in their hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "box"
+                ],
+                "final_score": 0.3728597164154053
+            }
+        },
+        {
+            "P01-20240202-1613543131": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    489,
+                    674,
+                    613,
+                    798
+                ],
+                "question": "what is the person grasping in her right hand?",
+                "model_response": "Nothing",
+                "ground_truth_answers": [
+                    "plate"
+                ],
+                "final_score": 0.2853868007659912
+            }
+        },
+        {
+            "P01-20240202-1613548886": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    560,
+                    785,
+                    684,
+                    909
+                ],
+                "question": "how many pots are on the stove?",
+                "model_response": "1",
+                "ground_truth_answers": [
+                    "2"
+                ],
+                "final_score": 0.8054155111312866
+            }
+        },
+        {
+            "P01-20240202-1613546827": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    540,
+                    930,
+                    664,
+                    1054
+                ],
+                "question": "what food is in the plate in front of the person?",
+                "model_response": "Fries",
+                "ground_truth_answers": [
+                    "fries",
+                    "french fries"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613541446": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    661,
+                    790,
+                    785,
+                    914
+                ],
+                "question": "what liquid is being filled into the container?",
+                "model_response": "Water",
+                "ground_truth_answers": [
+                    "water"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613543281": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    618,
+                    739,
+                    742,
+                    863
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Dishwasher",
+                "ground_truth_answers": [
+                    "dishwasher"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613545848": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    764,
+                    799,
+                    888,
+                    923
+                ],
+                "question": "what is the person grasping?",
+                "model_response": "Nothing",
+                "ground_truth_answers": [
+                    "cabinet",
+                    "door",
+                    "door handle"
+                ],
+                "final_score": 0.2969176769256592
+            }
+        },
+        {
+            "P01-20240202-1613544075": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    599,
+                    758,
+                    723,
+                    882
+                ],
+                "question": "what is the green food in the image?",
+                "model_response": "Lettuce",
+                "ground_truth_answers": [
+                    "grapes"
+                ],
+                "final_score": 0.38543546199798584
+            }
+        },
+        {
+            "P01-20240202-1613542471": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    604,
+                    994,
+                    728,
+                    1118
+                ],
+                "question": "what is the person doing?",
+                "model_response": "Bathing",
+                "ground_truth_answers": [
+                    "washing"
+                ],
+                "final_score": 0.6367992758750916
+            }
+        },
+        {
+            "P01-20240202-1613541149": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    654,
+                    843,
+                    778,
+                    967
+                ],
+                "question": "what object is the filling?",
+                "model_response": "Pipe",
+                "ground_truth_answers": [
+                    "jar"
+                ],
+                "final_score": 0.24503540992736816
+            }
+        },
+        {
+            "P01-20240202-1613547614": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    590,
+                    868,
+                    714,
+                    992
+                ],
+                "question": "what food is on the counter?",
+                "model_response": "None",
+                "ground_truth_answers": [
+                    "bread",
+                    "bagel",
+                    "orange"
+                ],
+                "final_score": 0.2848917245864868
+            }
+        },
+        {
+            "P01-20240202-1613549558": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    701,
+                    1051,
+                    825,
+                    1175
+                ],
+                "question": "what color is food in the pot?",
+                "model_response": "Yellow",
+                "ground_truth_answers": [
+                    "yellow"
+                ],
+                "final_score": 1.0
+            }
+        },
+        {
+            "P01-20240202-1613548602": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    528,
+                    828,
+                    652,
+                    952
+                ],
+                "question": "what is the person holding in their right hand?",
+                "model_response": "Knife",
+                "ground_truth_answers": [
+                    "bottle"
+                ],
+                "final_score": 0.4162779748439789
+            }
+        },
+        {
+            "P01-20240202-161354733": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    648,
+                    846,
+                    772,
+                    970
+                ],
+                "question": "what equipment is the person using?",
+                "model_response": "Camera",
+                "ground_truth_answers": [
+                    "blender"
+                ],
+                "final_score": 0.3702888786792755
+            }
+        },
+        {
+            "P01-20240202-1613548654": {
+                "gaze_patch_size": 124,
+                "context_image_size": 228,
+                "gaze_bbox": [
+                    664,
+                    919,
+                    788,
+                    1043
+                ],
+                "question": "what is the person looking at?",
+                "model_response": "Pot",
+                "ground_truth_answers": [
+                    "pot"
+                ],
+                "final_score": 1.0000001192092896
+            }
+        }
+    ]
+}
